@@ -1,6 +1,7 @@
 @import "../../style/vars";
 .home{
     height: 100vh;
+    position: relative;
     &::before{
         content: "";
         width: 100%;

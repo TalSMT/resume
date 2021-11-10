@@ -2,11 +2,12 @@
 
 // section {
 //      padding:20px 0;
+ 
 
 // }
 .seperator{
     display: inline-block;
-    width: 80px;
+    width: 115px;
     position: relative;
     border-bottom: 2px solid $main-color;
     margin: -10px 0 20px 0;
@@ -16,9 +17,6 @@
 //     font-size: 1.2rem;
 // }
 
-// ul{
-//     list-style: none;
-//     li{
-//         font-size: 1.2rem;
-//     }
-// }
+ul{
+    list-style: none;
+}
