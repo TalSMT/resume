@@ -1,21 +1,21 @@
 @import "./vars";
 
-// section {
-//      padding:20px 0;
+section {
+     padding:20px 0;
  
 
-// }
+}
 .seperator{
     display: inline-block;
-    width: 115px;
+    width: 70px;
     position: relative;
     border-bottom: 2px solid $main-color;
     margin: -10px 0 20px 0;
 }
 
-// p{
-//     font-size: 1.2rem;
-// }
+p{
+    font-size: 1.2rem;
+}
 
 ul{
     list-style: none;
