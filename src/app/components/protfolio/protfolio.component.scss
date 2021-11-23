@@ -6,7 +6,11 @@
     &__item{
         position: relative;
         overflow: hidden;
-        margin-bottom: 15px;
+        margin-bottom: 9px;
+        .img-fluid{
+            width: 250px;
+            height: 187px;
+        }
          &:hover{
             .protfolio__item-content{
                 opacity: 1;
@@ -29,6 +33,18 @@
         transform: scale(0.8);
         opacity: 0;
         transition: 0.3s all ease;
+        .p1{
+            margin-top: 30px;
+        }
+        h3{
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    
+        
+        
+     
+        
 
         @media screen and(max-width:991px) {
         height: 20%;
@@ -43,7 +59,14 @@
 
         a{
             background: $main_color;
+            width: 40px;
+            height: 40px;
         }
+        i{
+           margin-bottom: 30px;
+         
+        }
+     
        
 
         &::before{
@@ -72,6 +95,15 @@
     }
     &__item-desc{
         display: block;
-        margin-bottom: 15px;
+        // margin-bottom: 5px;
+        justify-content:center;
+        text-align: center;
+        font-size: 9px;
+
+        // &__item-desc-p1{
+        //     margin-bottom: 60px;
+        // }
+       
     }
+  
 }
