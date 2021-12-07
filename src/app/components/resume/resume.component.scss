@@ -24,10 +24,11 @@
 
     }
 
-    &__resume-item{
+    &__resume-item, &__resume-experience, &__resume-projects{
         border-left: 2px solid $main-color;
         padding-left: 25px;
         position: relative;
+        
         &::before{
             content: "";
             position: absolute;
@@ -38,8 +39,12 @@
             border-radius: 50px;
             width: 20px;
             height: 20px;
+           
 
 
+        }
+        ul{
+            list-style-type: circle;
         }
        
 
